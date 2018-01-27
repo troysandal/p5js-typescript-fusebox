@@ -1,6 +1,14 @@
 {
   "name": "p5js-typescript-fusebox",
   "license": "MIT",
+  "author": {
+    "name": "Troy Sandal",
+    "url": "https://www.github.com/troysandal"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:troysandal/p5js-typescript-fusebox.git"
+  },
   "version": "0.0.1",
   "dependencies": {
     "p5": "^0.6.0"
