@@ -1,5 +1,4 @@
 /// <reference types="p5/lib/p5.global-mode" />
-import 'p5'
 
 var sketch = function(p: p5) {
   var x = 100;

@@ -1,5 +1,6 @@
 {
   "name": "p5js-typescript-fusebox",
+  "license": "MIT",
   "version": "0.0.1",
   "dependencies": {
     "p5": "^0.6.0"
