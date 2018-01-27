@@ -4,7 +4,7 @@ Template for [p5Js](https://p5js.org/) projects that uses Typescript and Fusebox
 ## Getting Started
 * I highly recommend [n](https://github.com/tj/n) or [nvm](https://github.com/creationix/nvm) for installing Node.  Install Node & a package manager - as of this writing I am using Node 8.9.4 & Yarn 1.3.2.
 * Clone this project
-* Run `yarn start`
+* Run `yarn sketch`
 * Open http://localhost:4444.
 * Make changes to `src/sketch.js`
 
