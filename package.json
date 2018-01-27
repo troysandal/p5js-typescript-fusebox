@@ -10,6 +10,7 @@
     "typescript": "^2.6.2"
   },
   "scripts": {
+    "compile": "tsc",
     "sketch": "node fuse.js"
   }
 }
