@@ -1,0 +1,14 @@
+{
+  "name": "p5js-typescript-fusebox",
+  "version": "0.0.1",
+  "dependencies": {
+    "p5": "^0.6.0"
+  },
+  "devDependencies": {
+    "fuse-box": "^3.0.2",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "sketch": "node fuse.js"
+  }
+}

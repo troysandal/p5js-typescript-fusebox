@@ -1,0 +1,24 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "echo",
+      "type": "shell",
+      "command": "echo Hello"
+    },
+    {
+      "label": "processing",
+      "command": "/Users/troy/processing-java",
+      "type": "shell",
+      "args": [
+        "--force",
+        "--sketch=${workspaceRoot}",
+        "--output=${workspaceRoot}\\out",
+        "--run"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
