@@ -4,6 +4,7 @@ const fuse = FuseBox.init({
   homeDir: 'src',
   output: 'dist/$name.js',
   sourceMaps: true,
+  globals: { "p5": "p5" },
   plugins: [
       WebIndexPlugin()
   ]
@@ -12,9 +13,8 @@ const fuse = FuseBox.init({
 fuse.dev();
 
 fuse.bundle('app')
-  .cache(false)
   .instructions('> sketch.ts +p5')
+  .hmr({reload: true})
   .watch()
-  .hmr();
 
 fuse.run();
