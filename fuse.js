@@ -1,4 +1,4 @@
-const {FuseBox, WebIndexPlugin} = require('fuse-box');
+const {FuseBox, WebIndexPlugin, CopyPlugin} = require('fuse-box');
 
 const fuse = FuseBox.init({
   homeDir: 'src',
@@ -6,11 +6,14 @@ const fuse = FuseBox.init({
   sourceMaps: true,
   globals: { "p5": "p5" },
   plugins: [
-      WebIndexPlugin()
+      WebIndexPlugin(),
+      CopyPlugin({
+        files: ['.mp3', '.wav', '.otf']
+      })
   ]
 });
 
-fuse.dev();
+fuse.dev({open : true});
 
 fuse.bundle('app')
   .instructions('> sketch.ts +p5')
