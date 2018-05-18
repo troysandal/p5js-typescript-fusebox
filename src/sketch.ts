@@ -4,8 +4,6 @@ require('p5/lib/addons/p5.sound')
 
 
 var sketch = function (p: p5) {
-  const x: number = 100
-  const y: number = 100
   let boop: p5.SoundFile
 
   p.preload = () => {
