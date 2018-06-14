@@ -4,21 +4,24 @@ require('p5/lib/addons/p5.sound')
 
 
 var sketch = function (p: p5) {
-  let boop: p5.SoundFile
+  let ding: p5.SoundFile
 
   p.preload = () => {
-    const BOOP_FILE = require("./boop.mp3").default
-    boop = new p5.SoundFile(BOOP_FILE)
+    const DING_FILE = require("./ding.mp3").default
+    ding = new p5.SoundFile(DING_FILE)
   }
 
   p.setup = function () {
-    p.createCanvas(640, 480)
+    p.createCanvas(p.windowWidth, p.windowHeight)
+    ding.playMode('restart')
   }
 
   p.draw = function () {
     if (p.mouseIsPressed) {
       p.fill(0, 0, 0)
-      boop.play()
+      if (ding.isLoaded()) {
+        ding.play()
+      }
     } else {
       p.fill(255, 0, 0)
     }
