@@ -16,10 +16,12 @@
   "devDependencies": {
     "@types/node": "^9.4.6",
     "fuse-box": "^3.0.2",
-    "typescript": "^2.6.2"
+    "typescript": "^2.6.2",
+    "uglify-js": "^3.4.0"
   },
   "scripts": {
     "compile": "tsc",
-    "sketch": "node fuse.js"
+    "sketch": "node fuse.js",
+    "dist-os": "node fuse.js dist-open-processing"
   }
 }

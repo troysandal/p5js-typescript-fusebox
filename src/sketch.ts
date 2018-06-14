@@ -17,9 +17,11 @@ var sketch = function (p: p5) {
   }
 
   p.draw = function () {
-    if (p.mouseIsPressed && ding.isLoaded()) {
+    if (p.mouseIsPressed) {
       p.fill(0, 0, 0)
-      ding.play()
+      if (ding.isLoaded()) {
+        ding.play()
+      }
     } else {
       p.fill(255, 0, 0)
     }
