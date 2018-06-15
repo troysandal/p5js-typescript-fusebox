@@ -11,12 +11,12 @@
   },
   "version": "0.0.1",
   "dependencies": {
-    "p5": "^0.6.0"
+    "p5": "^0.6.1"
   },
   "devDependencies": {
-    "@types/node": "^9.4.6",
-    "fuse-box": "^3.0.2",
-    "typescript": "^2.6.2",
+    "@types/node": "^10.3.3",
+    "fuse-box": "^3.2.2",
+    "typescript": "^2.9.2",
     "uglify-js": "^3.4.0"
   },
   "scripts": {
