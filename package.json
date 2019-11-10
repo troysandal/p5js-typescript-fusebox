@@ -11,13 +11,13 @@
   },
   "version": "0.0.1",
   "dependencies": {
-    "p5": "^0.6.1"
+    "p5": "^0.10.2"
   },
   "devDependencies": {
-    "@types/node": "^10.3.3",
-    "fuse-box": "^3.2.2",
-    "typescript": "^2.9.2",
-    "uglify-js": "^3.4.0"
+    "@types/node": "^12.12.7",
+    "fuse-box": "^3.7.1",
+    "typescript": "^3.7.2",
+    "uglify-js": "^3.6.8"
   },
   "scripts": {
     "compile": "tsc",
