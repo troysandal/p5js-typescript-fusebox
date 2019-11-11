@@ -1,7 +1,5 @@
-import 'p5'
-require('p5/lib/addons/p5.sound')
-//require('p5/lib/addons/p5.dom')
-
+import * as p5 from 'p5'
+import 'p5/lib/addons/p5.sound'
 
 var sketch = function (p: p5) {
   let ding: p5.SoundFile
