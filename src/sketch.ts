@@ -14,6 +14,10 @@ var sketch = function (p: p5) {
     ding.playMode('restart')
   }
 
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
+  }
+
   p.draw = function () {
     if (p.mouseIsPressed) {
       p.fill(0, 0, 0)
