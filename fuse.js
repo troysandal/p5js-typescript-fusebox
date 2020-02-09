@@ -35,7 +35,7 @@ context(class {
 
     if (!this.isProduction) {
       fuse.dev()
-      bundle.watch().hmr()
+      bundle.watch().hmr({ reload: true })
     }
     return bundle
   }
