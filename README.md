@@ -2,7 +2,7 @@
 Template for [p5Js](https://p5js.org/) projects that uses [Typescript](http://www.typescriptlang.org) and [Fusebox](https://fuse-box.org) for fast, iterative development.  I created this to help port a legacy [Processing Java](https://processing.org) application to p5Js.  Porting it to Typescript with Fusebox meant I had little dependency overhead to worry about (see package.json).
 
 ## Getting Started
-* I highly recommend [n](https://github.com/tj/n) or [nvm](https://github.com/creationix/nvm) for installing Node - I used Node 10.16.3 & Yarn 6.4.1.
+* I highly recommend [n](https://github.com/tj/n) or [nvm](https://github.com/creationix/nvm) for installing Node - I used Node 14.x & npm 6.x.
 * Clone this project
 * `npm i`
 * Run `npm run sketch`
