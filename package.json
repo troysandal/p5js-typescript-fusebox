@@ -21,6 +21,6 @@
   "scripts": {
     "compile": "tsc",
     "sketch": "rm -rf .cache && ts-node -T fuse.ts",
-    "dist": "ts-node -T fuse.ts dist",
+    "dist": "ts-node -T fuse.ts dist"
   }
 }
