@@ -1,5 +1,4 @@
-import * as p5 from 'p5'
-import 'p5/lib/addons/p5.sound'
+/// <reference path="../global.d.ts" />
 
 var sketch = function (p: p5) {
   let ding: p5.SoundFile

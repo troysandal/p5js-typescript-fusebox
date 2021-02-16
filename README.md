@@ -12,12 +12,12 @@ Template for [p5Js](https://p5js.org/) projects that uses [Typescript](http://ww
 
 ## Publishing to Open Processing [Experimental]
 You can publish your sketch to [Open Processing](https://www.openprocessing.org).  This repo is posted for you [as an example](https://www.openprocessing.org/sketch/561721).
-* [optiona] Obfuscate your code by setting `uglify` to `true` in fuse.js.
-* Run `npm run dist-os`
+* Run `npm run dist`
 * Copy/Paste the contents of `./dist/app.js` to your sketch.
-* Add the files from `dist/assets` to the sketch Files tab.
+* Add the mp3 from `dist/resources` to the sketch Files tab.
 * Turn on p5.Sound in your Sketch
 
 ## Random
 * **Source Maps** are turned on by default which means you can set breakpoints in the browser or in Visual Studio Code (use Chrome Debugging extension).
 * Fusebox vs Webpack - Fusebox has incredibly fast hot module reloading and native Typescript support.  QED for me.
+  * UPDATE - The upgrade from Fusebox 3 to 4 was way harder than it needed to be.  The hardest part is there was absolutely zero migration guide.  This made it hard but then some of the powerful things such as bundle instructions were replced with, well, magic.  It's still very fast but the lack of any real documenation means I will move to either Parcel or Webpack at some point.
